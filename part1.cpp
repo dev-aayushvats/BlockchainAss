@@ -90,9 +90,9 @@ public:
     }
 
     void displayBlockchainHashes() const {
-        cout << "Blockchain Hashes:" << endl;
+        // cout << "Blockchain Hashes:" << endl;
         for (const auto& pair : chain) {
-            cout << pair.first << endl;
+            cout << "Block Hash: " << pair.first << endl;
         }
     }
 
